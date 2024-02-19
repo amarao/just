@@ -388,6 +388,7 @@ impl Config {
       )
       .arg(
         Arg::with_name(arg::DOTENV_FILENAME)
+          .short("E")
           .long("dotenv-filename")
           .takes_value(true)
           .help("Search for environment file named <DOTENV-FILENAME> instead of `.env`")
