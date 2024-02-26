@@ -32,6 +32,7 @@ edit:completion:arg-completer[just] = [@words]{
             cand --completions 'Print shell completion script for <SHELL>'
             cand -s 'Show information about <RECIPE>'
             cand --show 'Show information about <RECIPE>'
+            cand -E 'Search for environment file named <DOTENV-FILENAME> instead of `.env`'
             cand --dotenv-filename 'Search for environment file named <DOTENV-FILENAME> instead of `.env`'
             cand --dotenv-path 'Load environment file at <DOTENV-PATH> instead of searching for one'
             cand --check 'Run `--fmt` in ''check'' mode. Exits with 0 if justfile is formatted correctly. Exits with 1 and prints a diff if formatting is required.'
